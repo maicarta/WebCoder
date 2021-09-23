@@ -1,0 +1,283 @@
+nav {
+  background-color: white;
+  height: 10px;
+  width: 100vw; }
+
+.navbar {
+  padding: 0px; }
+
+.container-fluid {
+  background-color: white;
+  width: 100vw;
+  margin-top: 30px; }
+
+.menuColor {
+  font-family: Balham; }
+
+#navbarNavDropdown {
+  justify-content: flex-end; }
+
+.fondo {
+  background-image: url("../multimedia/pexels-bongkarn-thanyakij-3787324.jpg");
+  width: 100vw;
+  padding: 100px 0;
+  background-size: 100%;
+  background-repeat: no-repeat; }
+
+.tituloHome {
+  color: #be7a5e;
+  font-family: BrownSunflowerSerif;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 22px; }
+
+.tituloHomeDos {
+  color: #4C4C4C;
+  font-family: BrownSunflowerSerif;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 18px; }
+
+.productos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.productos {
+  width: 200px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 130px 10px; }
+
+.textoServicios {
+  font-size: 11px;
+  font-family: Balham;
+  padding: 2px;
+  text-align: center; }
+
+.botonMas {
+  color: #be7a5e;
+  text-decoration: solid;
+  font-size: 10px;
+  letter-spacing: 1px; }
+
+.botonMas:hover {
+  color: #4C4C4C; }
+
+.contacto {
+  display: flex;
+  flex-direction: column; }
+
+.botonFormulario {
+  background-color: #be7a5e;
+  color: white;
+  text-decoration: solid;
+  font-size: 10px;
+  letter-spacing: 1px;
+  width: 68px;
+  height: 25px;
+  align-self: center;
+  padding: 5px; }
+
+.botonFormulario:hover {
+  background-color: #BF7F6D;
+  color: white; }
+
+.tituloTrabajos {
+  padding: 70px 0px 10px 0px; }
+
+.portfolioContenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.tituloServicios {
+  padding: 70px 0px 20px 0px; }
+
+.serviciosContenedor {
+  display: flex;
+  align-items: flex-start;
+  flex-flow: row-reverse wrap;
+  margin-right: 100px; }
+
+.textoServicios {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 10px; }
+
+.serviciosContenedor1 {
+  display: flex;
+  align-items: flex-start;
+  flex-flow: row wrap;
+  margin-top: 50px; }
+
+.textoServicios1 {
+  margin-left: 62px;
+  padding-left: 30px;
+  padding-right: 10px;
+  font-size: 11px;
+  font-family: Balham; }
+
+.serviciosContenedor2 {
+  display: flex;
+  align-items: flex-start;
+  flex-flow: row-reverse wrap;
+  margin-top: 50px;
+  margin-right: 100px; }
+
+.textoServicios2 {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 10px;
+  font-size: 11px;
+  font-family: Balham; }
+
+#grid {
+  display: grid;
+  grid-template-areas: "nav nav" "texto imagen" "footer footer";
+  grid-template-rows: 50px 350px 75px;
+  grid-template-columns: 500px 200px; }
+
+.navbar {
+  grid-area: nav; }
+
+#texto {
+  grid-area: texto;
+  margin-top: 30px; }
+
+#imagen {
+  grid-area: imagen;
+  margin-top: 20px; }
+
+footer {
+  grid-area: footer; }
+
+.parrafo {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 50px; }
+
+.nosotrosTitulo {
+  text-align: left;
+  margin-left: 50px; }
+
+.container {
+  width: 400px;
+  height: 530px;
+  background-color: #F0E5DC;
+  border-radius: 10px; }
+
+.mb-3 {
+  padding-top: 10px;
+  width: 180px;
+  margin-left: 30px;
+  font-size: 14px; }
+
+.suscripcion {
+  width: 350px;
+  font-size: 12px; }
+
+button {
+  margin-left: 40px; }
+
+.colorBoton {
+  background-color: #D38F75;
+  border-color: #D38F75; }
+
+.colorBotonDos {
+  background-color: #D38F75;
+  border-color: #D38F75; }
+
+.colorBoton:hover {
+  background-color: #BF7F6D;
+  border-color: #BF7F6D; }
+
+.colorBotonDos:hover {
+  background-color: #BF7F6D;
+  border-color: #BF7F6D; }
+
+.tituloContacto {
+  margin-top: 70px; }
+
+footer {
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  background-color: #E0CAB8;
+  width: 100vw;
+  padding: 20px 0px;
+  margin-top: 30px; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+@media only screen and (min-width: 360px) {
+  .productos-container {
+    display: flex;
+    flex-direction: column; }
+  .productos {
+    padding: 100px 30px;
+    width: 100vw;
+    justify-content: center;
+    align-items: center; }
+  .fondo {
+    margin-top: 60px;
+    padding: 100px; }
+  .container-fluid {
+    margin-top: 0px; } }
+
+@media only screen and (min-width: 768px) {
+  .container-fluid {
+    margin-top: 50px; }
+  .fondo {
+    padding: 200px 0; }
+  h3 {
+    padding-top: 30px; }
+  .productos-container {
+    display: flex;
+    flex-direction: row; }
+  .productos {
+    justify-content: center;
+    align-items: center; } }
+
+body {
+  background-color: white; }
+
+@font-face {
+  font-family: Santana;
+  src: url(/fuentes/Santana.ttf);
+  font-family: Balham;
+  src: url(/fuentes/Balham.otf);
+  font-family: BrownSunflowerSerif;
+  src: url(/fuentes/BrownSunflowerSerif-PKOJd.ttf); }
+
+h2 {
+  color: black;
+  font-family: Santana; }
+
+h3 {
+  color: #4C4C4C;
+  font-family: BrownSunflowerSerif;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 22px; }
+
+h4 {
+  color: #4C4C4C;
+  font-family: BrownSunflowerSerif;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+  margin-bottom: 15px; }
+
+h5 {
+  font-family: Balham;
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  margin-top: 20px; }

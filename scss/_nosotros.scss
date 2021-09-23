@@ -1,0 +1,44 @@
+#grid {
+    display: grid;
+    grid-template-areas: 
+    "nav nav"
+    "texto imagen"
+    "footer footer";
+    
+
+    grid-template-rows: 50px 350px 75px;
+    grid-template-columns: 500px 200px;
+}
+
+.navbar {
+    grid-area: nav;
+
+}
+
+#texto {
+    grid-area: texto;
+    margin-top: 30px;
+   
+}
+
+#imagen {
+    grid-area: imagen;
+    margin-top: 20px;
+    
+}
+
+footer {
+    grid-area: footer;
+}
+
+.parrafo {
+    font-size: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+}
+
+.nosotrosTitulo {
+    text-align: left;
+    margin-left: 50px;
+}
+

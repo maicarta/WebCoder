@@ -1,0 +1,63 @@
+
+@import "header";
+@import "home";
+@import "trabajos";
+@import "servicios";
+@import "nosotros";
+@import "contacto";
+@import "footer";
+@import "responsive";
+
+
+
+
+
+body {
+    background-color: white ; 
+}
+
+    @font-face {
+        font-family:Santana; src: url(/fuentes/Santana.ttf);
+        font-family: Balham; src:url(/fuentes/Balham.otf);
+        font-family: BrownSunflowerSerif; src: url(/fuentes/BrownSunflowerSerif-PKOJd.ttf); 
+        
+   }
+
+h2 {
+    color:rgb(0, 0, 0);
+    font-family: Santana;}
+
+h3{
+    color: #4C4C4C;
+    font-family: BrownSunflowerSerif;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+
+h4 {
+    color: #4C4C4C;
+    font-family: BrownSunflowerSerif;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+h5 {
+   font-family: Balham;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+

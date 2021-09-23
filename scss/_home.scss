@@ -1,0 +1,85 @@
+.fondo {
+    background-image: url("../multimedia/pexels-bongkarn-thanyakij-3787324.jpg");
+    width: 100vw;
+    padding: 100px 0;
+    background-size: 100%;
+background-repeat:no-repeat
+
+}
+
+.tituloHome {
+    color: #be7a5e;
+    font-family: BrownSunflowerSerif;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 22px;
+}
+
+.tituloHomeDos {
+    color: #4C4C4C;
+    font-family: BrownSunflowerSerif;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.productos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productos {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 130px 10px;
+     
+}
+
+.textoServicios {
+    font-size: 11px;
+    font-family: Balham;
+    padding: 2px;
+    text-align: center;
+}
+
+
+.botonMas {
+    color: #be7a5e;
+    text-decoration: solid;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.botonMas:hover{
+    color: #4C4C4C;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.botonFormulario {
+    background-color: #be7a5e ;
+    color:white;
+    text-decoration: solid;
+    font-size: 10px;
+    letter-spacing: 1px;
+    width: 68px;
+    height: 25px;
+    align-self: center;
+    padding: 5px;
+    
+}
+
+.botonFormulario:hover{
+    background-color: #BF7F6D;
+    color:white;
+
+}

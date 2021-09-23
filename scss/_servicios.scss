@@ -1,0 +1,49 @@
+.tituloServicios {
+    padding: 70px 0px 20px 0px;
+}
+
+
+.serviciosContenedor {
+    display: flex;
+    align-items: flex-start;
+    flex-flow: row-reverse wrap;
+    margin-right: 100px;
+
+}
+
+
+.textoServicios {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;  
+}
+.serviciosContenedor1 {
+    display: flex;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    margin-top: 50px;
+}
+
+.textoServicios1 {
+    margin-left: 62px;
+    padding-left: 30px;
+    padding-right: 10px;
+    font-size: 11px;
+    font-family: Balham;  
+}
+
+.serviciosContenedor2 {
+    display: flex;
+    align-items: flex-start;
+    flex-flow: row-reverse wrap;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.textoServicios2 {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    font-size: 11px;
+    font-family: Balham; 
+}
