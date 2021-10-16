@@ -165,6 +165,15 @@ footer {
   text-align: left;
   margin-left: 50px; }
 
+@font-face {
+  font-family: Santana;
+  src: url(/fuentes/Santana.ttf);
+  font-family: Balham;
+  src: url(/fuentes/Balham.otf); }
+
+form {
+  font-family: Balham; }
+
 .container {
   width: 400px;
   height: 530px;
@@ -181,27 +190,33 @@ footer {
   width: 350px;
   font-size: 12px; }
 
-button {
-  margin-left: 40px; }
-
 .colorBoton {
   background-color: #D38F75;
-  border-color: #D38F75; }
-
-.colorBotonDos {
-  background-color: #D38F75;
-  border-color: #D38F75; }
+  border-color: #D38F75;
+  padding-left: 130px;
+  padding-right: 130px;
+  margin: 0px 0px 0px 30px; }
 
 .colorBoton:hover {
   background-color: #BF7F6D;
   border-color: #BF7F6D; }
 
-.colorBotonDos:hover {
-  background-color: #BF7F6D;
-  border-color: #BF7F6D; }
-
 .tituloContacto {
   margin-top: 70px; }
+
+.form-control {
+  padding-left: 150px;
+  padding-right: 150px;
+  border-style: hidden; }
+
+#consulta {
+  padding: 8px 100px 8px 83px;
+  border-radius: 20px;
+  border-style: hidden; }
+
+.campoConsulta {
+  border-style: hidden;
+  border-radius: 5px; }
 
 @font-face {
   font-family: Santana;
