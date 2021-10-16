@@ -1,9 +1,23 @@
+@font-face {
+    font-family:Santana; src: url(/fuentes/Santana.ttf);
+    font-family: Balham; src:url(/fuentes/Balham.otf);}
+
 footer {
     text-align: center;
-    font-weight: bold;
-    font-size: 12px;
+    font-weight: normal;
     background-color:#E0CAB8;
     width: 100vw;
-    padding: 20px 0px;
+    padding: 15px 0px;
     margin-top: 30px;   
+}
+
+.textoFooter {
+    font-family: Santana;
+    font-size: 10px;
+    margin-bottom: 5px;
+
+}
+
+.logoRedes {
+    margin-bottom: 10px;
 }

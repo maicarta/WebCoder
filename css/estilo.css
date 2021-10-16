@@ -139,7 +139,7 @@ nav {
 #grid {
   display: grid;
   grid-template-areas: "nav nav" "texto imagen" "footer footer";
-  grid-template-rows: 50px 350px 75px;
+  grid-template-rows: 50px 350px 130px;
   grid-template-columns: 500px 200px; }
 
 .navbar {
@@ -203,14 +203,27 @@ button {
 .tituloContacto {
   margin-top: 70px; }
 
+@font-face {
+  font-family: Santana;
+  src: url(/fuentes/Santana.ttf);
+  font-family: Balham;
+  src: url(/fuentes/Balham.otf); }
+
 footer {
   text-align: center;
-  font-weight: bold;
-  font-size: 12px;
+  font-weight: normal;
   background-color: #E0CAB8;
   width: 100vw;
-  padding: 20px 0px;
+  padding: 15px 0px;
   margin-top: 30px; }
+
+.textoFooter {
+  font-family: Santana;
+  font-size: 10px;
+  margin-bottom: 5px; }
+
+.logoRedes {
+  margin-bottom: 10px; }
 
 * {
   padding: 0;
