@@ -6,8 +6,8 @@
     "footer footer";
     
 
-    grid-template-rows: 50px 350px 130px;
-    grid-template-columns: 500px 200px;
+    grid-template-rows: 100px 500px 130px;
+    grid-template-columns: 600px 500px;
 }
 
 .navbar {
@@ -17,13 +17,14 @@
 
 #texto {
     grid-area: texto;
-    margin-top: 30px;
+    margin-top: 50px;
    
 }
 
 #imagen {
     grid-area: imagen;
-    margin-top: 20px;
+    margin-top: 50px;
+    align-items: center;
     
 }
 
@@ -33,7 +34,7 @@ footer {
 }
 
 .parrafo {
-    font-size: 12px;
+    font-size: 14px;
     font-family: Balham;
     margin-left: 50px;
     width: 400px;

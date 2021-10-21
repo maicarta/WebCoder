@@ -3,42 +3,25 @@
 
 }
 
-.portfolioContenedor {
+.contenedorPadre {
+    width: 500px;
+    height: 510px;
     display: flex;
+    margin: auto;
+    flex-wrap: wrap;
     flex-direction: row;
+}
+
+.imagenTrabajos {
+    flex: none;
+    width: 250px;
+    height: 170px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-}
-
-.imagenUno {
-    transition: all 3s;
 }
 
 
-.imagenUno img:hover {
-    height: 190px;
-    width: 270px;
-}
 
-.imagenDos {
-    transition: all 3s;
-}
-
-
-.imagenDos img:hover {
-    height: 190px;
-    width: 270px;
-}
-
-.imagenTres {
-    transition: all 3s;
-}
-
-
-.imagenTres img:hover {
-    height: 190px;
-    width: 270px;
-}
 
 

@@ -20,7 +20,7 @@ nav {
 .fondo {
   background-image: url("../multimedia/pexels-bongkarn-thanyakij-3787324.jpg");
   width: 100vw;
-  padding: 100px 0;
+  padding: 300px 0;
   background-size: 100%;
   background-repeat: no-repeat; }
 
@@ -29,7 +29,8 @@ nav {
   font-family: BrownSunflowerSerif;
   text-align: center;
   margin-bottom: 25px;
-  font-size: 22px; }
+  font-size: 22px;
+  margin-top: 50px; }
 
 .tituloHomeDos {
   color: #4C4C4C;
@@ -40,8 +41,9 @@ nav {
 
 .productos-container {
   display: flex;
-  flex-direction: column;
-  align-items: center; }
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
 
 .productos {
   width: 200px;
@@ -50,7 +52,8 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 130px 10px; }
+  padding: 130px 10px;
+  margin: 50px; }
 
 .textoServicios {
   font-size: 11px;
@@ -89,33 +92,21 @@ nav {
 .tituloTrabajos {
   padding: 70px 0px 10px 0px; }
 
-.portfolioContenedor {
+.contenedorPadre {
+  width: 500px;
+  height: 510px;
   display: flex;
-  flex-direction: row;
+  margin: auto;
+  flex-wrap: wrap;
+  flex-direction: row; }
+
+.imagenTrabajos {
+  flex: none;
+  width: 250px;
+  height: 170px;
+  display: flex;
   justify-content: center;
-  align-items: center;
-  flex-wrap: wrap; }
-
-.imagenUno {
-  transition: all 3s; }
-
-.imagenUno img:hover {
-  height: 190px;
-  width: 270px; }
-
-.imagenDos {
-  transition: all 3s; }
-
-.imagenDos img:hover {
-  height: 190px;
-  width: 270px; }
-
-.imagenTres {
-  transition: all 3s; }
-
-.imagenTres img:hover {
-  height: 190px;
-  width: 270px; }
+  align-items: center; }
 
 .tituloServicios {
   padding: 70px 0px 20px 0px; }
@@ -138,25 +129,26 @@ nav {
 #grid {
   display: grid;
   grid-template-areas: "nav nav" "texto imagen" "footer footer";
-  grid-template-rows: 50px 350px 130px;
-  grid-template-columns: 500px 200px; }
+  grid-template-rows: 100px 500px 130px;
+  grid-template-columns: 600px 500px; }
 
 .navbar {
   grid-area: nav; }
 
 #texto {
   grid-area: texto;
-  margin-top: 30px; }
+  margin-top: 50px; }
 
 #imagen {
   grid-area: imagen;
-  margin-top: 20px; }
+  margin-top: 50px;
+  align-items: center; }
 
 footer {
   grid-area: footer; }
 
 .parrafo {
-  font-size: 12px;
+  font-size: 14px;
   font-family: Balham;
   margin-left: 50px;
   width: 400px; }
@@ -244,7 +236,7 @@ footer {
   padding: 0;
   margin: 0; }
 
-@media only screen and (min-width: 360px) {
+@media only screen and (max-width: 360px) {
   /* Home */
   .tituloHome {
     font-size: 18px; }
@@ -298,7 +290,7 @@ footer {
   .colorBoton {
     margin-left: 10px; } }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .container-fluid {
     margin-top: 50px; }
   .fondo {
