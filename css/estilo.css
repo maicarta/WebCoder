@@ -93,7 +93,29 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  flex-wrap: wrap; }
+
+.imagenUno {
+  transition: all 3s; }
+
+.imagenUno img:hover {
+  height: 190px;
+  width: 270px; }
+
+.imagenDos {
+  transition: all 3s; }
+
+.imagenDos img:hover {
+  height: 190px;
+  width: 270px; }
+
+.imagenTres {
+  transition: all 3s; }
+
+.imagenTres img:hover {
+  height: 190px;
+  width: 270px; }
 
 .tituloServicios {
   padding: 70px 0px 20px 0px; }
@@ -135,8 +157,9 @@ footer {
 
 .parrafo {
   font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-left: 50px; }
+  font-family: Balham;
+  margin-left: 50px;
+  width: 400px; }
 
 .nosotrosTitulo {
   text-align: left;
@@ -222,6 +245,11 @@ footer {
   margin: 0; }
 
 @media only screen and (min-width: 360px) {
+  /* Home */
+  .tituloHome {
+    font-size: 18px; }
+  .tituloHomeDos {
+    font-size: 16px; }
   .productos-container {
     display: flex;
     flex-direction: column; }
@@ -231,16 +259,50 @@ footer {
     justify-content: center;
     align-items: center; }
   .fondo {
-    margin-top: 60px;
+    margin-top: 80px;
     padding: 100px; }
   .container-fluid {
-    margin-top: 0px; } }
+    margin-top: 0px; }
+  /* servicios */
+  .contenedor {
+    flex-wrap: wrap;
+    margin-top: 10px; }
+  .textoServicios1 {
+    margin-bottom: 15px; }
+  .tituloServicios {
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+    font-size: 18px; }
+  /* nosotros */
+  #grid {
+    display: grid;
+    grid-template-areas: "nav" "texto"  "imagen" "footer";
+    grid-template-rows: 50px 200px 300px 130px;
+    grid-template-columns: 360px; }
+  .parrafo {
+    margin-left: 25px;
+    width: 300px;
+    text-align: center; }
+  .imagenNosotros {
+    margin-left: 55px; }
+  .nosotrosTitulo {
+    margin-left: 80px; }
+  /* Trabajos */
+  .tituloTrabajos {
+    font-size: 18px; }
+  /* Contacto */
+  .container {
+    width: 350px; }
+  .mb-3 {
+    margin-left: 15px; }
+  .colorBoton {
+    margin-left: 10px; } }
 
 @media only screen and (min-width: 768px) {
   .container-fluid {
     margin-top: 50px; }
   .fondo {
-    padding: 200px 0; }
+    padding: 230px 0; }
   h3 {
     padding-top: 30px; }
   .productos-container {

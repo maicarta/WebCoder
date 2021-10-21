@@ -5,7 +5,15 @@
 
 
 @media only screen and (min-width: 360px) {
+
+    /* Home */
+    .tituloHome {
+        font-size: 18px;
+    }
     
+    .tituloHomeDos {
+        font-size: 16px;
+    }
     .productos-container {
         display: flex;
         flex-direction: column;
@@ -21,12 +29,77 @@
     
     
     .fondo {
-        margin-top: 60px;
+        margin-top: 80px;
         padding: 100px;
     }
     .container-fluid {
         margin-top: 0px;
     } 
+
+
+    /* servicios */
+
+    .contenedor {
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+
+    .textoServicios1 {
+        margin-bottom: 15px;
+    }
+
+    .tituloServicios {
+        margin-bottom: 2px;
+        padding-bottom: 2px;
+        font-size: 18px;
+    }
+
+    /* nosotros */
+
+    #grid {
+        display: grid;
+        grid-template-areas: 
+        "nav"
+        "texto" 
+        "imagen"
+        "footer";
+        
+    
+        grid-template-rows: 50px 200px 300px 130px;
+        grid-template-columns: 360px;
+    }
+
+    .parrafo {
+        margin-left: 25px;
+        width: 300px;
+        text-align: center;
+    }
+    .imagenNosotros {
+        margin-left: 55px;
+    }
+    
+    .nosotrosTitulo {
+        margin-left: 80px;
+    }
+     
+    /* Trabajos */
+
+    .tituloTrabajos {
+        font-size: 18px;
+    }
+
+    /* Contacto */
+
+    .container {
+        width: 350px;
+    }
+    .mb-3 {
+        margin-left: 15px;
+    }
+
+    .colorBoton {
+        margin-left: 10px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -37,7 +110,7 @@
     
 
     .fondo {
-        padding: 200px 0;
+        padding: 230px 0;
     }
 
     h3 {

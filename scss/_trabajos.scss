@@ -8,4 +8,37 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
+
+.imagenUno {
+    transition: all 3s;
+}
+
+
+.imagenUno img:hover {
+    height: 190px;
+    width: 270px;
+}
+
+.imagenDos {
+    transition: all 3s;
+}
+
+
+.imagenDos img:hover {
+    height: 190px;
+    width: 270px;
+}
+
+.imagenTres {
+    transition: all 3s;
+}
+
+
+.imagenTres img:hover {
+    height: 190px;
+    width: 270px;
+}
+
+
