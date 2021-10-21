@@ -20,7 +20,7 @@ nav {
 .fondo {
   background-image: url("../multimedia/pexels-bongkarn-thanyakij-3787324.jpg");
   width: 100vw;
-  padding: 300px 0;
+  padding: 200px 0;
   background-size: 100%;
   background-repeat: no-repeat; }
 
@@ -30,7 +30,7 @@ nav {
   text-align: center;
   margin-bottom: 25px;
   font-size: 22px;
-  margin-top: 50px; }
+  margin-top: 10px; }
 
 .tituloHomeDos {
   color: #4C4C4C;
@@ -236,7 +236,7 @@ footer {
   padding: 0;
   margin: 0; }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 767px) {
   /* Home */
   .tituloHome {
     font-size: 18px; }
@@ -252,7 +252,7 @@ footer {
     align-items: center; }
   .fondo {
     margin-top: 80px;
-    padding: 100px; }
+    padding: 80px; }
   .container-fluid {
     margin-top: 0px; }
   /* servicios */
@@ -269,19 +269,38 @@ footer {
   #grid {
     display: grid;
     grid-template-areas: "nav" "texto"  "imagen" "footer";
-    grid-template-rows: 50px 200px 300px 130px;
-    grid-template-columns: 360px; }
+    grid-template-rows: 50px 220px 330px 130px;
+    grid-template-columns: 300px; }
   .parrafo {
     margin-left: 25px;
     width: 300px;
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 10px; }
   .imagenNosotros {
-    margin-left: 55px; }
+    margin-left: 55px;
+    margin-top: 10px; }
   .nosotrosTitulo {
     margin-left: 80px; }
   /* Trabajos */
   .tituloTrabajos {
     font-size: 18px; }
+  .contenedorPadre {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    flex-direction: row; }
+  .imagenTrabajos {
+    flex: none;
+    width: 125px;
+    height: 82px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .items {
+    width: 125px;
+    height: 82px; }
   /* Contacto */
   .container {
     width: 350px; }
@@ -289,20 +308,6 @@ footer {
     margin-left: 15px; }
   .colorBoton {
     margin-left: 10px; } }
-
-@media only screen and (max-width: 768px) {
-  .container-fluid {
-    margin-top: 50px; }
-  .fondo {
-    padding: 230px 0; }
-  h3 {
-    padding-top: 30px; }
-  .productos-container {
-    display: flex;
-    flex-direction: row; }
-  .productos {
-    justify-content: center;
-    align-items: center; } }
 
 body {
   background-color: white; }
